@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovators Conference 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        dt {
+            font-weight: bold;
+        }
+        dl {
+            margin: 0;
+            padding: 0;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Innovators Conference 2024</h1>
+    <p>Welcome to the Innovators Conference 2024! Join us for a day of insightful talks, networking, and collaboration.</p>
+</header>
+<main>
+    <h2>Event Schedule</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Session</th>
+                <th>Speaker</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>09:00 AM - 10:00 AM</td>
+                <td>Opening Keynote: The Future of Innovation</td>
+                <td>Dr. Jane Smith</td>
+            </tr>
+            <tr>
+                <td>10:15 AM - 11:15 AM</td>
+                <td>Breakout Session 1: AI and Ethics</td>
+                <td>Dr. John Doe</td>
+            </tr>
+            <tr>
+                <td>11:30 AM - 12:30 PM</td>
+                <td>Panel Discussion: Building Resilient Startups</td>
+                <td>Emily Brown, Mark Lee, Sarah Johnson</td>
+            </tr>
+            <tr>
+                <td>01:30 PM - 02:30 PM</td>
+                <td>Workshop: Innovating with IoT</td>
+                <td>Dr. Michael White</td>
+            </tr>
+            <tr>
+                <td>02:45 PM - 03:45 PM</td>
+                <td>Closing Keynote: Embracing Change</td>
+                <td>Dr. Lisa Green</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Speakers</h2>
+    <dl>
+        <dt>Dr. Jane Smith</dt>
+        <dd>Dr. Jane Smith is a renowned expert in technology and innovation with over 20 years of experience in the field. She is the Chief Technology Officer at TechForward Inc.</dd>
+
+        <dt>Dr. John Doe</dt>
+        <dd>Dr. John Doe specializes in artificial intelligence and its ethical implications. He is a professor at the Institute of Advanced Studies.</dd>
+
+        <dt>Emily Brown</dt>
+        <dd>Emily Brown is the founder of NextGen Startups and has successfully launched several tech ventures. She is passionate about supporting new entrepreneurs.</dd>
+
+        <dt>Mark Lee</dt>
+        <dd>Mark Lee is a venture capitalist with a focus on early-stage technology companies. He has extensive experience in scaling startups.</dd>
+
+        <dt>Sarah Johnson</dt>
+        <dd>Sarah Johnson is an innovation consultant with a background in design thinking and user experience. She helps companies navigate change.</dd>
+
+        <dt>Dr. Michael White</dt>
+        <dd>Dr. Michael White is an Internet of Things (IoT) expert and the lead researcher at SmartTech Labs, focusing on smart device innovations.</dd>
+
+        <dt>Dr. Lisa Green</dt>
+        <dd>Dr. Lisa Green is a futurist and keynote speaker known for her work on technological advancements and their impact on society. She is the founder of FutureVisions.</dd>
+    </dl>
+
+    <h2>Registration Form</h2>
+    <form action="/submit-registration" method="post" class="form-container">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="attendance">Attendance Type:</label>
+        <select id="attendance" name="attendance" required>
+            <option value="in-person">In-Person</option>
+            <option value="virtual">Virtual</option>
+        </select><br><br>
+
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+    </main>
+    <footer>
+       <h6> end of the conference</h6> 
+    </footer>
+</body>
+</html>

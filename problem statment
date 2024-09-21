@@ -1,0 +1,6 @@
+# Assignment 3- Event Schedule
+
+*Problem statement*
+
+Create a page for a fictional conference or event.
+ Include a table (<table>) with the event schedule, using appropriate tags like <thead>, <tbody>, <th>, and <td>. Add speaker bios using definition lists (<dl>, <dt>, <dd>) and a registration form with various input types.
